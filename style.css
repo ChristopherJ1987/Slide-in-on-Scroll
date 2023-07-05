@@ -4,6 +4,9 @@ html {
     font-family: 'helvetica neue';
     font-size: 20px;
     font-weight: 200;
+    background: #3C3B3F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 body {
     margin: 0;
@@ -15,7 +18,7 @@ h1 {
     margin-top: 0;
 }
 .site-wrap {
-    max-width: 700px;
+    max-width: 75%;
     margin: 100px auto;
     background: white;
     padding: 40px;
