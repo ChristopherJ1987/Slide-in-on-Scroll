@@ -15,7 +15,9 @@ body {
     box-sizing: inherit;
 }
 h1 {
+    padding: 4rem;
     margin-top: 0;
+    background-color: hsla(50, 94%, 25%, 0.3);
 }
 .site-wrap {
     max-width: 75%;
