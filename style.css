@@ -1,6 +1,5 @@
 html {
     box-sizing: border-box;
-    background: #ffc600;
     font-family: 'helvetica neue';
     font-size: 20px;
     font-weight: 200;
@@ -30,7 +29,7 @@ h1 {
     background-size: 200% var(--b),var(--b) 200%;
     filter: grayscale(50%);
     transition: .3s;
-    background-color: hsla(50, 94%, 25%, 0.3);
+    background-color: hsla(102, 70%, 26%, 0.3);
 }
 h1:hover {
     --_p: 75%;
