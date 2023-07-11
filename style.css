@@ -34,6 +34,7 @@ h1 {
 h1:hover {
     --_p: 75%;
     filter: grayscale(0%);
+    text-decoration: underline wavy #669706;
 }
 .article {
     padding: 0 4rem;
