@@ -49,6 +49,7 @@ h1:hover {
     background: white;
     padding: 40px;
     text-align: justify;
+    border: dashed #658e18;
 }
 .align-left {
     float: left;
