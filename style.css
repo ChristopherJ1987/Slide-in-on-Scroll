@@ -73,3 +73,16 @@ h1:hover {
     opacity: 1;
     transform: translateX(0%) scale(1);
 }
+footer {
+    color: #fff;
+    display: flex;
+    font-weight: 300;
+    align-items: last baseline;
+    background: var(--main-gray);
+    justify-content: space-between;
+    padding: 1.25rem 2rem 1.5rem 2rem;
+    border-top: 4px solid var(--main-red);
+}
+footer > p {
+    margin: 2rem;
+}
